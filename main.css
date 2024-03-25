@@ -1,0 +1,45 @@
+body{
+    font-family: "Montserrat", sans-serif
+}
+
+.navbar-brand{
+    font-family: "Roboto", sans-serif;
+}
+
+.navbar {
+    background-color: #1b2628;
+}
+
+.nav .nav-link.active{
+    background-color: aliceblue;
+    color: rgb(0, 0, 0);
+}
+
+.nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover{
+    color: rgb(255, 255, 255);
+}
+
+.navbar-toggler{
+    background-color: rgb(255, 255, 240);
+}
+
+.navbar-brand{
+    font-family: "Montserrat", sans-serif
+}
+
+.section-title{
+    font-family: "Roboto", sans-serif;
+    
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+
+}
+
+.social-links a {
+    text-decoration: none;
+}
