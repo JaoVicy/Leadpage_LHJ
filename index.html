@@ -163,25 +163,26 @@
                 </div>
                 <div class="row">
                     <div class="col-md-7">
-                        <form>
+                        <form action="processar_fale_conosco.php" method="post">
                             <div class="mb-3">
                                 <label for="nome" class="form-label">Seu nome</label>
-                                <input type="text" id="nome" class="form-control" required>
+                                <input type="text" id="nome" name="nome" class="form-control" required>
                             </div>
                             <div class="mb-3">
                                 <label for="email" class="form-label">Seu email</label>
-                                <input type="email" id="email" class="form-control" required>
+                                <input type="email" id="email" name="email" class="form-control" required>
                             </div>
                             <div class="mb-3">
-                                <label for="number" class="form-label">Seu telefone (opicional)</label>
-                                <input type="tel" id="number" class="form-control">
+                                <label for="telefone" class="form-label">Seu telefone (opcional)</label>
+                                <input type="tel" id="telefone" name="telefone" class="form-control">
                             </div>
                             <div class="mb-3">
-                                <label for="text" class="form-label">Sua mensagem</label>
-                                <textarea id="text" class="form-control"></textarea required>
+                                <label for="mensagem" class="form-label">Sua mensagem</label>
+                                <textarea id="mensagem" name="mensagem" class="form-control" required></textarea>
                             </div>
                             <button type="submit" class="btn fw-bold">Enviar</button>
                         </form>
+                        
                     </div>
                     <div class="col-md-5 mt-5">
                         <div class="row mb-3">
